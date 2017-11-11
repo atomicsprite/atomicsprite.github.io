@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "atomicsprite-or-publii-beta-testing-with-github-pages",
+    "title": "publii-beta-and-github-pages",
     "description": "",
     "home_page_url": "https://atomicsprite.github.io",
     "feed_url": "https://atomicsprite.github.io/feed.json",
@@ -10,6 +10,20 @@
         "name": "elementaltm"
     },
     "items": [
+        {
+            "id": "https://atomicsprite.github.io/cookie-policy.html",
+            "url": "https://atomicsprite.github.io/cookie-policy.html",
+            "title": "Cookie Policy",
+            "content_html": "This is our Cookie Policy.",
+            "author": {
+                "name": "elementaltm"
+            },
+            "tags": [
+                   "cookie policy"
+            ],
+            "date_published": "2017-11-11T02:05:05+00:00",
+            "date_modified": "2017-11-11T02:05:46+00:00"
+        },
         {
             "id": "https://atomicsprite.github.io/contact-us.html",
             "url": "https://atomicsprite.github.io/contact-us.html",

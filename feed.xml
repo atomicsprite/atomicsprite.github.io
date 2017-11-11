@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>atomicsprite-or-publii-beta-testing-with-github-pages</title>
+    <title>publii-beta-and-github-pages</title>
     <link href="https://atomicsprite.github.io/feed.xml" rel="self" />
     <link href="https://atomicsprite.github.io" />
-    <updated>2017-11-11T02:02:46+00:00</updated>
+    <updated>2017-11-11T02:10:26+00:00</updated>
     <author>
         <name>elementaltm</name>
     </author>
     <id>https://atomicsprite.github.io</id>
 
+    <entry>
+        <title>Cookie Policy</title>
+        <author>
+            <name>elementaltm</name>
+        </author>
+        <link href="https://atomicsprite.github.io/cookie-policy.html"/>
+        <id>https://atomicsprite.github.io/cookie-policy.html</id>
+            <category term="cookie policy"/>
+
+        <updated>2017-11-11T02:05:46+00:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                This is our Cookie Policy.
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Contact us</title>
         <author>
