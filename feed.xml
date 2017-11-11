@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>atomicsprite-publii-beta-testing-with-github-pages</title>
+    <title>atomicsprite-or-publii-beta-testing-with-github-pages</title>
     <link href="https://atomicsprite.github.io/feed.xml" rel="self" />
     <link href="https://atomicsprite.github.io" />
-    <updated>2017-11-11T01:41:04+00:00</updated>
+    <updated>2017-11-11T01:49:37+00:00</updated>
     <author>
         <name>elementaltm</name>
     </author>
     <id>https://atomicsprite.github.io</id>
 
+    <entry>
+        <title>Contact us</title>
+        <author>
+            <name>elementaltm</name>
+        </author>
+        <link href="https://atomicsprite.github.io/contact-us.html"/>
+        <id>https://atomicsprite.github.io/contact-us.html</id>
+
+        <updated>2017-11-11T01:48:53+00:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                How to contact us.
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>About us</title>
+        <author>
+            <name>elementaltm</name>
+        </author>
+        <link href="https://atomicsprite.github.io/about-us.html"/>
+        <id>https://atomicsprite.github.io/about-us.html</id>
+
+        <updated>2017-11-11T01:48:31+00:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                Info about us.
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>This is my first test post</title>
         <author>
