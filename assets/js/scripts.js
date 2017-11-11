@@ -38,16 +38,16 @@
 
         cookieBarClose.on('click', function (event) {
             event.preventDefault();
-            localStorage.setItem('theme-cookie-bar', true);
+            localStorage.setItem('cookie-bar', true);
             cookieBar.removeClass('is-sticky');
         });
 
-        if (!localStorage.getItem('theme-cookie-bar')) {
+        if (!localStorage.getItem('cookie-bar')) {
             cookieBar.addClass('is-sticky');
         }
-    });
-
-    // Mainmenu improvements
+    });  
+	
+	// Mainmenu improvements
     $(function ($) {
         var mainmenu = $('.navbar__menu');
         var level0 = mainmenu.children('li');
@@ -101,49 +101,48 @@
         }
     });
 
-    // Sticky menu animation
-    $(function ($) {
-        var menu = $('.js-top');
+	
+	// Sticky menu animation
+	$(function ($) {
+		var menu = $('.js-top');
 
-        var previousScroll = $(window).scrollTop();
-        var menuHeight = menu.outerHeight();
-        var menuTop = 0;
+		if (!menu.length || !menu.hasClass('is-sticky')) {
+			return;
+		}
 
-        $(window).on('scroll', function () {
-            var currentScroll = $(window).scrollTop();
-            var diff = currentScroll - previousScroll;
-            menuTop -= diff / 2;
+		var previousScroll = $(window).scrollTop();
+		var menuHeight = menu.outerHeight();
+		var menuTop = 0;
 
-            if(currentScroll <= 0) {
-                menuTop = 0 - currentScroll;
-            } else {
-                if (menuTop < -menuHeight) {
-                    menuTop = -menuHeight;
-                }
+		$(window).on('scroll', function () {
+			var currentScroll = $(window).scrollTop();
+			var diff = currentScroll - previousScroll;
+			menuTop -= diff / 2;
 
-                if (menuTop >= 0) {
-                    menuTop = 0;
-                    menu.addClass('is-sticky-on');
+			if (menuTop < -menuHeight) {
+				menuTop = -menuHeight;
+			}
 
-                }
-            }
+			if (menuTop >= 0) {
+				menuTop = 0;
+			}
 
-            if(currentScroll <= 0) {
-                menu.removeClass('is-sticky-off');
-                menu.removeClass('is-sticky-on');
+			if (currentScroll <= 100) {
+				menu.removeClass('has-bg');
+			} else {
+				menu.addClass('has-bg');
+			}
 
-            } else {
-               menu.addClass('is-sticky-off');
+			if (currentScroll <= 30) {
+				menuTop = 0;
+			}
 
-            }
+			menu.css('top', menuTop + 'px');
 
-            previousScroll = currentScroll;
-        });
-		
-	    $(window).trigger('scroll');
-
-    });
-
+			previousScroll = currentScroll;
+		});
+	});
+  
     // Share buttons pop-up
     $(function () {
         // link selector and pop-up window size
@@ -179,26 +178,6 @@
             return !!popup;
         }
     });
-
-    // Post filters
-    $(function () {
-        if(!$('.filter').length) {
-            return;
-        }
-        $('.filter').find('.filter__item').each(function(i, item) {
-            item = $(item);
-
-            item.on('click', function(e) {
-                e.preventDefault();
-                $('.filter').find('.filter__item').removeClass('filter__item--active');
-                item.addClass('filter__item--active');
-
-                $('.card').removeClass('card--hidden');
-
-                if(item.attr('href') !== '#') {
-                    $('.card').not('[data-tags*="' + item.text() + ' "]').addClass('card--hidden');
-                }
-            });
-        });
-    });
+	
+   
 })(jQuery);
