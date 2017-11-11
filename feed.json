@@ -11,32 +11,6 @@
     },
     "items": [
         {
-            "id": "https://atomicsprite.github.io/contact-us.html",
-            "url": "https://atomicsprite.github.io/contact-us.html",
-            "title": "Contact us",
-            "content_html": "How to contact us.",
-            "author": {
-                "name": "elementaltm"
-            },
-            "tags": [
-            ],
-            "date_published": "2017-11-11T01:48:53+00:00",
-            "date_modified": "2017-11-11T01:48:53+00:00"
-        },
-        {
-            "id": "https://atomicsprite.github.io/about-us.html",
-            "url": "https://atomicsprite.github.io/about-us.html",
-            "title": "About us",
-            "content_html": "Info about us.",
-            "author": {
-                "name": "elementaltm"
-            },
-            "tags": [
-            ],
-            "date_published": "2017-11-11T01:48:31+00:00",
-            "date_modified": "2017-11-11T01:48:31+00:00"
-        },
-        {
             "id": "https://atomicsprite.github.io/this-is-my-first-test-post.html",
             "url": "https://atomicsprite.github.io/this-is-my-first-test-post.html",
             "title": "This is my first test post",
