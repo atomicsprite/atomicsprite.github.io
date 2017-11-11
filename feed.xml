@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>atomicsprite-publii-beta-testing-with-github-pages</title>
+    <link href="https://atomicsprite.github.io/feed.xml" rel="self" />
+    <link href="https://atomicsprite.github.io" />
+    <updated>2017-11-11T01:41:04+00:00</updated>
+    <author>
+        <name>elementaltm</name>
+    </author>
+    <id>https://atomicsprite.github.io</id>
+
+    <entry>
+        <title>This is my first test post</title>
+        <author>
+            <name>elementaltm</name>
+        </author>
+        <link href="https://atomicsprite.github.io/this-is-my-first-test-post.html"/>
+        <id>https://atomicsprite.github.io/this-is-my-first-test-post.html</id>
+
+        <updated>2017-11-10T23:23:31+00:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Testing 123</h2>
+<p><img class="post__image--center" src="https://atomicsprite.github.io/media/posts/1/botp_googleplus_cover.jpg" alt="BOTP" width="940" height="180"></p>
+            ]]>
+        </content>
+    </entry>
+</feed>

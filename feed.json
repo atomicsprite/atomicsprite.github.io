@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "atomicsprite-publii-beta-testing-with-github-pages",
+    "description": "",
+    "home_page_url": "https://atomicsprite.github.io",
+    "feed_url": "https://atomicsprite.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "elementaltm"
+    },
+    "items": [
+        {
+            "id": "https://atomicsprite.github.io/this-is-my-first-test-post.html",
+            "url": "https://atomicsprite.github.io/this-is-my-first-test-post.html",
+            "title": "This is my first test post",
+            "content_html": "<h2>Testing 123</h2>\n<p><img class=\"post__image--center\" src=\"https://atomicsprite.github.io/media/posts/1/botp_googleplus_cover.jpg\" alt=\"BOTP\" width=\"940\" height=\"180\"></p>",
+            "author": {
+                "name": "elementaltm"
+            },
+            "tags": [
+            ],
+            "date_published": "2017-11-10T23:23:31+00:00",
+            "date_modified": "2017-11-10T23:23:31+00:00"
+        }
+    ]
+}
